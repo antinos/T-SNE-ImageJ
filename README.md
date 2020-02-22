@@ -40,7 +40,7 @@ This is another example plot, this time of the original handwritten numbers [mni
 Library | Notes
 ------- | -----
 [ij.jar](https://mvnrepository.com/artifact/net.imagej/ij) | 
-[jblas-1.2.3.jar](https://mvnrepository.com/artifact/org.jblas/jblas/1.2.3) | not included in vanilla Fiji.. must be added to the .jar folder)
+[jblas-1.2.3.jar](https://mvnrepository.com/artifact/org.jblas/jblas/1.2.3) | not included in vanilla Fiji.. must be added to the .jar folder
 [netlib-java-0.9.3-renjin-patched-2.jar](https://mvnrepository.com/artifact/org.netlib/netlib-java/0.9.3-renjin-patched-2) | 
 [f2jutil-0.8.jar](https://mvnrepository.com/artifact/org.netlib/f2jutil/0.8) | 
 [jama-1.0.3.jar](https://mvnrepository.com/artifact/gov.nist.math/jama/1.0.3) | 
