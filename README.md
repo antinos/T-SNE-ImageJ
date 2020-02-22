@@ -8,7 +8,7 @@ The lower-dimensional data is finally presented in a typical 2D scatter-plot. Fo
 
 Will result in this ImageJ plot:
 ![tSNE output_fashion mnist_perp50_inidim30_with legend|690x484](https://aws1.discourse-cdn.com/business4/uploads/imagej/original/3X/5/7/57f6ae94a588ea733e562c46a6dec986ab2584a7.png) 
-In which colours have been automatically assigned and a legend added. If no label .csv file is specified or the number of entries in the specified label file does not match the number of processed images, then the plugin will default to an non-coloured plot.
+In which colours have been automatically assigned and a legend added. If no label .csv file is specified or the number of entries in the specified label file does not match the number of processed images, then the plugin will default to a non-coloured plot.
 
 **NOTE:** In this version, colours are currently assigned randomly, so there is a chance that two or more groups can be assigned the same (unlikely) or apparently similar colours. In ImageJ you can easily change these colours to anything you want afterwards by using the 'More>Contents Style...' option on the plot interface. You may also have to rescale the plot to fit all datapoints in the field-of-view.
 
