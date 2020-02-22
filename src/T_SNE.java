@@ -290,8 +290,8 @@ public class T_SNE implements PlugIn {
     		String legendLabels = sb.toString();
     		scatter.addLegend(legendLabels);
     			//scatter.addLegend((uniqueArray.toString())); //gave odd results, depsite simplicity
-    		scatter.setLimitsToFit(true);
     		scatter.show();
+    		scatter.setLimitsToFit(true);
     		//IJ.log("File list: "+Arrays.toString(Filelist));
     	}
     }
