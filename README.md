@@ -18,7 +18,7 @@ run("T SNE");
 ```
 To pass arguments (note space delimiter), e.g.:
 ```javascript
-run("T SNE", "perplexity=20 initial_dims=10 output_csv max_iterations=1000 input_path=[C:/Users/antinos/Desktop/");
+run("T SNE", "perplexity=20 initial_dims=10 output_csv max_iterations=1000 input_path=[C:/Users/antinos/Desktop/]");
 ```
 To run with the label file specification, e.g.:
 ```javascript
