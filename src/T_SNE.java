@@ -94,7 +94,7 @@ public class T_SNE implements PlugIn {
             	imageMatrix = new double[stack.getStackSize()][width*height];
             	for (int s = 0; s < stack.getStackSize(); s++) {
             		Filelist[s] = Integer.toString(s+1);
-            		stack.setSlice(s);
+            		stack.setSlice(s+1);
             		ImageProcessor sip = stack.getProcessor();  	
                 	int[] image1DArray = new int[width*height];
                 	for (int j = 0; j < height; j++) {
@@ -399,10 +399,10 @@ public class T_SNE implements PlugIn {
         inputIndexPath = Macro.getValue(optionsStr, "label_path", "");
 
         // Initial dimensions to specify PCA pre-processing dimensionality-reduction.
-        initial_dims = Integer.parseInt(Macro.getValue(optionsStr, "initial_dims", ""));
+        initial_dims = Integer.parseInt(Macro.getValue(optionsStr, "initial_dims", "30"));
 
         // Get the perplexity value or use the default.
-        perplexity = Double.parseDouble(Macro.getValue(optionsStr, "perplexity", ""));
+        perplexity = Double.parseDouble(Macro.getValue(optionsStr, "perplexity", "50"));
         
         // Get the maximum iterations for tSNE error approximation of use the default.
         max_iterations = Integer.parseInt(Macro.getValue(optionsStr, "max_iterations ", "1000"));
